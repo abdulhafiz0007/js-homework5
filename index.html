@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1 class="currency-main-heading">Currency Converter</h1>
+
+    <form class="currency-form js-form">
+
+        <input class="js-entryMoney-input" type="number" placeholder="Enter your money">
+
+        <select name="currencies" class="currecy-types js-selectedCurrency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="AUD">AUD</option>
+            <option value="CAD">CAD</option>
+        </select>
+
+        <span class="convertion-output  js-convertedMoney-result"></span>
+
+        <button type="submit" style="display: block;"> Convert </button>
+
+    </form>
+
+    <h2 class="findNumber-heading">Find the Number</h2>
+
+    <form class="currency-form js-findNumber-form">
+
+        <input class="js-input" type="number" placeholder="Enter your number">
+
+        <button type="submit">Find</button>
+
+        <span class="attempCount" style="display: block;">Urinishlar soni</span>
+
+        <output class="js-findNumber-result">Result</output>
+
+    </form>
+
+    
+
+
+
+
+    <script src="./converter.js"></script>
+    <script src="./main.js"></script>
+
+    
+</body>
+</html>

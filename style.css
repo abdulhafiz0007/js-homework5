@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.currency-main-heading {
+    text-align: center;
+    color: green;
+}
+
+.currency-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.currecy-types {
+    padding: 2px;
+    width: 168px;
+}
+
+.convertion-output {
+    display: inline-block;
+    padding: 1px 8px;
+    border: 1px solid black;
+    width: 168px;
+}
+
+.findNumber-heading {
+    text-align: center;
+    color: green;
+}
+
+.currency-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
